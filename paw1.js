@@ -27,11 +27,14 @@ user_code = user_raw_code.split("", 4);
 // concatenate the resulting array to a string
 // and save it in the array[0]
 user_code.unshift(user_code.join(""));
-console.log("user", user_code);
 let wonGuesses = Array();
 let perfectGuesses = Array();
 let imperfectGuesses = Array();
+console.log("user", user_code);
 console.log("computerCode", computerCode);
+console.log('USING THE 12GUESSES');
+
+
 
 // The computer tells them how many digits they guessed
 // correctly
